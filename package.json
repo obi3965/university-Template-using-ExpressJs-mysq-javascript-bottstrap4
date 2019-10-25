@@ -1,0 +1,32 @@
+{
+  "name": "university-template-using-expressjs-mysq-javascript-bottstrap4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obi3965/university-Template-using-ExpressJs-mysq-javascript-bottstrap4.git"
+  },
+  "author": "obaidullah totakhil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obi3965/university-Template-using-ExpressJs-mysq-javascript-bottstrap4/issues"
+  },
+  "homepage": "https://github.com/obi3965/university-Template-using-ExpressJs-mysq-javascript-bottstrap4#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "bower": "^1.8.8",
+    "date-and-time": "^0.10.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
