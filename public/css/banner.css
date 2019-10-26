@@ -1,7 +1,7 @@
 
 
 .banner-image{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), 
     url('https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -32,13 +32,17 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    font-size: 45px;
-    font-weight: 800 !important;
+    font-size: 48px;
+    font-weight: 900 !important;
     margin-top: 16% !important;
 }
 .banner-title-color{
     color: #d50000 !important;
-    font-weight: 800 !important;
+    
+    /* background: radial-gradient( rgb(238, 215, 4),#d50000);
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: transparent !important; */
+
 }
 
 .banner-btns{
