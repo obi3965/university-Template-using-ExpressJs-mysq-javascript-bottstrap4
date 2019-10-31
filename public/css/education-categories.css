@@ -30,7 +30,7 @@
   }
   
   .hovereffect:hover .overlay {
-    background-color: rgba(245, 8, 8, 0.7) !important;
+    background-color: rgba(220, 36, 48, 0.5) !important;
   }
   
   .hovereffect img {
@@ -49,7 +49,7 @@
     font-size: 17px;
     padding: 10px;
     margin-top: 12%;
-    background: rgba(241, 9, 9, 0.6);
+    background: rgba(220,36, 48, 0.7);
     -webkit-transform: translateY(45px) !important;
     -ms-transform: translateY(45px) !important;
     transform: translateY(45px) !important;

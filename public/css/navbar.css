@@ -13,12 +13,13 @@ body{
   
   
   .navbar{
-     
+     position: fixed;
     padding: 10px;
-    /* top: 0;
+    top: 0;
     left: 0;
-    right: 0;  */
+    right: 0;  
     background: #000 !important;
+    z-index: 999;
      
   }
   .change{
@@ -108,34 +109,34 @@ body{
   font: bold 15px/40px 'Raleway', sans-serif;
   color: #fff;
   text-transform: uppercase;
-  background: #d50000;
+  background: #dc2430;
   -moz-border-radius: 0 3px 3px 0;
   -webkit-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
   }
   .form-wrapper-2 button:hover{
-  background: #cc2828;
+  background: #dc2430;
   color: #fff;
   }
   .form-wrapper-2 button:active,
   .form-wrapper-2 button:focus{
-  background: #d50000;
+  background: #dc2430;
   }
   .form-wrapper-2 button:before {
   content: '';
   position: absolute;
   border-width: 8px 8px 8px 0;
   border-style: solid solid solid none;
-  border-color: transparent #d50000 transparent;
+  border-color: transparent #dc2430 transparent;
   top: 12px;
   left: -6px;
   }
   .form-wrapper-2 button:hover:before{
-  border-right-color: #d50000;
+  border-right-color: #dc2430;
   }
   .form-wrapper-2 button:focus:before{
-  border-right-color: #d50000;
+  border-right-color: #dc2430;
   }
   .form-wrapper-2 button::-moz-focus-inner {
   border: 0;

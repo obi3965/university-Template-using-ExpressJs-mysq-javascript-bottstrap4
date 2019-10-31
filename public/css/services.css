@@ -57,3 +57,19 @@
     margin: 8px !important;
 
 }
+.service-title h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+.tour{
+    width: 220px;
+   margin: auto; 
+}
+.tour-btn{
+    
+    padding:16px 60px;
+    border: 1px solid red;
+}
