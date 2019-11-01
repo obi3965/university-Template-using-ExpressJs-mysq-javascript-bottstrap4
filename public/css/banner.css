@@ -1,7 +1,7 @@
 .banner-image {
     height: 90vh;
     z-index: 10;
-    position: relative;
+    position: relative !important;
     width: 100%;
     padding-top: 150px;
     padding-bottom: 100px;
