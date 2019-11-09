@@ -1,21 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event)=>{
-
-
-  window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-
-
     const backToTopButton = document.querySelector("#back-to-top-btn");
 
     window.addEventListener("scroll", scrollFunction);
@@ -71,9 +54,33 @@ function myFunction() {
 
 
 
-    
+   
+   
+//#################################TABS PANEL###########################
+function onTabClick(event) {
+  let activeTabs = document.querySelectorAll('.active');
+  
+  activeTabs.forEach(function(tab) {
+    tab.className = tab.className.replace('active', '');
+  });
+  
+  // activate new tab and panel
+  event.target.parentElement.className += ' active';
+  document.getElementById(event.target.href.split('#')[1]).className += ' active';
+}
+
+const element = document.getElementById('nav-tab');
+
+element.addEventListener('click', onTabClick, false);
   
   
 
+  
 
+
+
+$('.launch-modal').on('click', function(e){
+  e.preventDefault();
+  $( '#' + $(this).data('modal-id') ).modal();
+});
 })

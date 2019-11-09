@@ -1,0 +1,55 @@
+/*banner style*/
+.banner{
+  background: radial-gradient(rgba(43,55,96,1),rgba(11,16,35,1));
+  color: white !important;
+  height: 90vh !important;
+  width: 100% !important;
+  position: relative !important;
+  
+}
+.banner-contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    
+  }
+  .banner-title{
+    flex: 0 0 45%;
+  }
+  .banner-title h1{
+    color: #3db166;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  .banner-title p{
+    font-size: 20.5px;
+    word-break: break-all;
+    letter-spacing: 1px;
+
+  }
+  .btn-outline{
+    border: none !important;
+    outline: none !important;
+    background: #3db166 !important;
+    padding: 13px 60px !important;
+    border-radius: 35px !important;
+    color: #fff!important;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+  .banner-book{
+    flex: 0 0 35%;
+  }
+  .banner-book img{
+    width: 100% !important;
+  }
+
+

@@ -11,19 +11,28 @@
 <body>
         <%- include('includes/header.ejs') %>
         
+        <%- include('includes/navbar.ejs') %>
         
-       
+        <%- include('includes/banner.ejs') %>
+
+
         <div class="services">
-           
+            <%- include('includes/services.ejs') %>
         </div>
 
         
-        <div class="student-services">
-               
+        <div class="education">
+            <%- include('includes/education.ejs') %>
         </div> 
 
+        <div class="tab-panel">
+            <%- include('includes/tabs.ejs') %>
+        </div> 
        
-
+        <%- include('includes/video.ejs') %>
+        <%- include('includes/subscribe.ejs') %>
+        <%- include('includes/footer.ejs') %>
+        <%- include('includes/scrollpage.ejs') %>
     <%- include('includes/js.ejs') %>
 </body>
 </html>

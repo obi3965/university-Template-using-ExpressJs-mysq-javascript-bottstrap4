@@ -1,0 +1,153 @@
+body{
+    
+    font-family: "Lora", serif !important;
+    margin: 0;
+    padding: 0;
+    /* #3db166 */
+    
+}
+
+/* .sticky {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    background: transparent;
+    box-shadow: 0px 0px 4px  #000;
+  } */
+  .navbar{
+      background: #ffff !important;
+      padding: 8px !important;
+      border-top: 1px solid rgba(43,55,96,1);
+      z-index: 999;
+      box-shadow: 0px 0px 1.5px  #000;
+    
+  }
+  
+
+
+  .navbar-brand img{
+    max-height: 75px !important;
+    width: 90px !important;
+    
+  }
+  
+  
+  
+  
+   .dropdown-menu{
+    margin-top: 23px !important;
+  }
+  .dropdown-item{
+    text-transform: capitalize;
+  }
+  .fa-bars{
+    color: #3db166 !important;
+    font-size: 30px;
+  } 
+   .navbar .nav-link{
+    color: #000!important;
+    font-size: 17px;
+    text-transform: uppercase;
+  } 
+   .nav-item{
+    padding: 6px 18px;
+    
+  } 
+  
+   .navbar-nav{
+    margin-right: 30px !important;
+  
+  } 
+   .cf:before, .cf:after{
+    content:"";
+    display:table;
+    }
+    .cf:after{
+    clear:both;
+    }
+    .cf{
+    zoom:1;
+    }
+  .form-wrapper-2 {
+    margin-right: 12px;
+  }
+  .form-wrapper-2 input {
+  width: 210px;
+  height: 40px;
+  padding: 12px 5px;
+  float: left;
+  font: bold 15px 'Raleway', sans-serif;
+  border: 0;
+  background: #eee;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  }
+  .form-wrapper-2 input:focus {
+  outline: 0;
+  background: #fff;
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  }
+  .form-wrapper-2 input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  }
+  .form-wrapper-2 input:-moz-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  }
+  .form-wrapper-2 input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  }
+  .form-wrapper-2 button {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  font: bold 15px/40px 'Raleway', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  background: #3db166;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+  }
+  .form-wrapper-2 button:hover{
+  background: #3db166;
+  color: #fff;
+  }
+  .form-wrapper-2 button:active,
+  .form-wrapper-2 button:focus{
+  background: #3db166;
+  }
+  .form-wrapper-2 button:before {
+  content: '';
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent #3db166 transparent;
+  top: 12px;
+  left: -6px;
+  }
+  .form-wrapper-2 button:hover:before{
+  border-right-color: #3db166;
+  }
+  .form-wrapper-2 button:focus:before{
+  border-right-color: #3db166;
+  }
+  .form-wrapper-2 button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  } 
+  
