@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', (event)=>{
+
+  let navbarFixed = document.querySelector('#navbar');
+  console.log(navbarFixed);
+  window.addEventListener('scroll', function (e) {
+    e.preventDefault();
+    const lastPosition = window.scrollY
+    if (lastPosition > 20) {
+      navbar.classList.add('change')
+    } else if (navbar.classList.contains('change')) {
+      navbar.classList.remove('change')
+    } else {
+      navbar.classList.remove('change')
+    }
+  })
+  
+
+
     const backToTopButton = document.querySelector("#back-to-top-btn");
 
     window.addEventListener("scroll", scrollFunction);

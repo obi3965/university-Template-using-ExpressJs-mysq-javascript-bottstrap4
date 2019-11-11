@@ -1,10 +1,16 @@
 /*banner style*/
 .banner{
-  background: radial-gradient(rgba(43,55,96,1),rgba(11,16,35,1));
-  color: white !important;
-  height: 90vh !important;
+   background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), 
+  url("https://images.pexels.com/photos/2305097/pexels-photo-2305097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+  height: 100vh !important;
   width: 100% !important;
   position: relative !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  box-shadow: 0 2px 5px 0px rgba(0,0,0, 0.5);
+    
   
 }
 .banner-contents{
@@ -16,40 +22,54 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    
+    color: #F1C40F;
   }
   .banner-title{
-    flex: 0 0 45%;
+    flex: 0 0 38%;
   }
+ 
   .banner-title h1{
-    color: #3db166;
+    color: #1297E0;
     text-transform: uppercase;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 1px;
     margin-bottom: 12px;
+    font-family: 'Aldrich', sans-serif !important;
+    border-left: 2px solid #1297E0;
+    padding-left: 8px;
+    
   }
   .banner-title p{
     font-size: 20.5px;
-    word-break: break-all;
-    letter-spacing: 1px;
-
+    word-break: keep-all;
+    text-align: justify;
+    color: #1297E0;
   }
   .btn-outline{
     border: none !important;
     outline: none !important;
-    background: #3db166 !important;
+    background: transparent!important;
     padding: 13px 60px !important;
     border-radius: 35px !important;
     color: #fff!important;
     text-transform: uppercase;
     margin-top: 12px;
+    border: 2px solid #1297E0 !important;
+    transition: all .5s ease-in;
+  }
+  .btn-outline:hover{
+    background: #1297E0 !important;
+    color: #fff;
   }
   .banner-book{
-    flex: 0 0 35%;
+    flex: 0 0 42%;
+    
   }
   .banner-book img{
     width: 100% !important;
+    height: 320px;
+    
   }
 
 

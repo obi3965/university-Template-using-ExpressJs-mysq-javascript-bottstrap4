@@ -19,7 +19,7 @@
   font-family: 'Aldrich' sans-serif;
 }
 .underline{
-  border-bottom: 3px solid #3db166;
+  border-bottom: 3px solid rgb(154, 18, 179);;
   width: 20%;
   margin: auto;
 }
@@ -47,13 +47,13 @@
     overflow: hidden !important;
     top: 0%;
     left: 0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
     -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
     transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
   }
   
   .hovereffect:hover .overlay {
-    background-color: rgba(43,55,96,0.6) !important;
+    background-color: rgb(154, 18, 179,0.4) !important;
   }
   
   .hovereffect img {
@@ -66,15 +66,15 @@
   
   .hovereffect h2 {
     text-transform: uppercase;
-    color:#3db166 ;
+    color:#fff ;
     text-align: center;
     position: relative !important;
-    font-size: 17px;
+    font-size: 18px;
     padding: 12px !important;
     margin-top: 12%;
     font-weight: 600;
-    letter-spacing: 1px;
-    background: rgba(43,55,96,0.7);
+    letter-spacing: 1.5px;
+    /* background: rgb(154, 18, 179,0.7); */
     -webkit-transform: translateY(45px) !important;
     -ms-transform: translateY(45px) !important;
     transform: translateY(45px) !important;
@@ -94,8 +94,8 @@
     /* padding: 7px 14px; */
     text-transform: uppercase;
     color: #fff;
-    border: 1px solid #3db166;
-     background-color: #3db166!important; 
+    border: 1px solid #fff;
+     background-color: rgba(154, 18, 179)!important; 
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transform: scale(0);

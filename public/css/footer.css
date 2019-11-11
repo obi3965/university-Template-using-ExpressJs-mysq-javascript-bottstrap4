@@ -1,16 +1,17 @@
 section {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 section .section-title {
     text-align: center;
     color: #007b5e;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     text-transform: uppercase;
 }
 #footer {
-    background: url("/img/bg-pattern.png"), rgba(43,55,96,0.6) ;
-    background: url("/img/bg-pattern.png"), linear-gradient(to right,rgba(43,55,96), rgba(43,55,96));
+    /* height: 70vh; */
+    background: url("/img/bg-pattern.png"), rgba(0,0,0,0.6) ;
+    background: url("/img/bg-pattern.png"), linear-gradient(to right,rgba(0,0,0), rgba(0,0,0));
 }
 #footer h5{
 	padding-left: 10px !important;
@@ -38,7 +39,7 @@ section .section-title {
 }
 #footer ul.social li:hover a i {
 	font-size:30px;
-	/* margin-top:-10px; */
+	margin-top:-10px;
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
