@@ -3,7 +3,7 @@ module.exports = (app) => {
        res.render('home');
     });
 
-//     app.get('/gallary', (req, res, next) => {
-//       res.render('gallary.ejs');
-//    });
+    app.get('/diploma-courses', (req, res, next) => {
+      res.render('diploma-courses.ejs');
+   });
  };

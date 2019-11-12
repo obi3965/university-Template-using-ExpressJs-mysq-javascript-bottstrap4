@@ -21,17 +21,17 @@
     .home-newsletter .single .form-control {
     height: 50px;
     background: rgba(255, 255, 255, 0.6);
-     border: 2px solid #3db166;
+     border: 2px solid #000;
     border-radius: 25px 0 0 25px; 
 }
     .home-newsletter .single .form-control:focus {
     box-shadow: none;
-    border-color: #3db166; 
+    border-color: #000; 
 }
     .home-newsletter .single .btn {
     min-height: 50px; 
     border-radius: 0 25px 25px 0;
-    background: #3db166;
-    color: #fff;
+    background: #000;
+    color: #0abde3;
     text-transform: uppercase !important;
      }

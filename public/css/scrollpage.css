@@ -3,7 +3,7 @@
     position: fixed !important;
     bottom: 20px;
     right: 20px;
-    background-color: #3db166;
+    background-color: #0abde3;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -14,7 +14,7 @@
  }
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
-    background-color: #3db166;
+    background-color: #0abde3;
     color: #fff;
 }
 
