@@ -1,9 +1,53 @@
+
+.diploma-flex-container{
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+}
+.diploma{ 
+    display: grid;
+    grid-template-areas: 
+      
+      "article article ads"
+      ;
+    grid-template-rows: auto;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: auto !important;
+    margin: 0;
+    }  
+   article,  #siteAds {
+    padding: 1.2em;
+    background: gold;
+    }
+  
+  #mainArticle { 
+    grid-area: article;      
+    }
+  
+  #siteAds { 
+    grid-area: ads; 
+    } 
+  /* Stack the layout on small devices/viewports. */
+  @media all and (max-width: 575px) {
+    .diploma { 
+      grid-template-areas: 
+        
+        "article"
+        "ads"
+       ;
+      grid-template-rows:1fr 1fr  1fr;  
+      grid-template-columns: 1fr;
+   }
+  }
+
 .zoom, .small{
     overflow: hidden;
     padding: 0;
-    width: 300px;
-    height: 300px;
-    border:1px solid #000;
+    width: 203px;
+    height: 175px;
+    /* border:1px solid #000; */
     float:left;
     margin:10px;
 }
@@ -19,12 +63,14 @@
     z-index: 0;
 }
 .small img{
-  transition-duration: 4s;
+  transition-duration: 3s;
     margin: 0 auto;
     display: block;
   transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
+    width: 203px !important;
+    height: 175px;
 }
 .small img:hover {
     transform: scale(1);

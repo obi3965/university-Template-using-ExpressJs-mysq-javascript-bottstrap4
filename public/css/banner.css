@@ -86,4 +86,20 @@
     background-position: center;
     height: 70vh;
     width: 100%;
+    position: relative;
+  }
+
+  .diploma-courses-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+  }
+  .diploma-courses-title h1{
+    color: #1297E0;
+    font-weight: 700;
+    font-family: 'Aldrich', sans-serif !important;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
