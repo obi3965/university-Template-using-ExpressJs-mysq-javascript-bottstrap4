@@ -25,6 +25,7 @@ app.use(bodyParser.json())
 app.set('view engine', 'ejs');
 //it applies to our server folder which runs all the viwes folder files
 app.set('views', './server/views');
+app.locals.dateAndTime = require('date-and-time');
 
 require('./server/routes/routes.js')(app);
 
