@@ -1,16 +1,14 @@
-//we should connect our expressJs module from node modules
 const express = require('express');
-
-//we should connect our morgan from node modules
 const morgan = require('morgan');
-
-//
-var bodyParser = require('body-parser')
-
+const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const dateAndTime = require('date-and-time');
+const passport = require('passport');
+const expressValidator = require('express-validator');
 const app = express();
 
 app.use(morgan('dev', {
-    // hvis ALLE requests skal ses i loggen, udkommenter næste linje
+    
     skip: req => (!req.url.endsWith(".html") && req.url.indexOf('.') > -1)
 }));
 
@@ -19,7 +17,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
-
+// app.use(expressValidator());
+app.use(cookieParser());
 
 //now we should set the views engine
 app.set('view engine', 'ejs');
@@ -29,12 +28,12 @@ app.locals.dateAndTime = require('date-and-time');
 
 require('./server/routes/routes.js')(app);
 
-// we can display everythings which includes in our public folder
+
 app.use(express.static('public'));
 
 
 
-// we listen to our server which runs on 5000 port
+
 const port = 6060;
 app.listen(port, (error) => {
    if (error) console.log(error);
