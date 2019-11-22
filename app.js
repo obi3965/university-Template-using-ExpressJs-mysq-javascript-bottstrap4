@@ -3,8 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const dateAndTime = require('date-and-time');
-const passport = require('passport');
-const expressValidator = require('express-validator');
+
 const app = express();
 
 app.use(morgan('dev', {
